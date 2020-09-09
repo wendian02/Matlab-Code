@@ -6,11 +6,16 @@
 clc ; clear ;
 load *.mat  % load data, contain x: true/synthetic data,   y: predicted/estimated data
 
+% assessment index
 r = corrcoef(x, y);
 r2 = r(1,2)^2;
 MAPE = mean(abs((y - x)./ x))*100; 
 RMSE = sqrt(mean((x - y) .^ 2));
 Mean_ratio = mean(y ./ x);
+
+% another way to get assessment index: using fitlm (matlab function)
+% assessment figure: taylordiag links: https://mp.weixin.qq.com/s?__biz=MzUxMzk4MjEwNg==&mid=2247484335&idx=1&sn=340c1e90093ad97aea6683e395e21428&chksm=f94da85ace3a214cf1d61f7d46f223b8c0b8a723cf0af19a169095548c2ab6d2850d68b869ee&token=70971684&lang=zh_CN#rd
+
 
 xmin = 10^-3;
 xmax = 10;

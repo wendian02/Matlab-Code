@@ -6,11 +6,13 @@ Now contain:
 
 1. Some Tips
    1. Read Chla from modis
-   2. Assessment Errors
-   3. Saveing figure
-   4. how to plot research area
+   2. Assessment index
+   3. some figure setting 
+   4. Read images of Modis satellite in batch
    5. Normal distribution and fitting
-2. Scatter plot 
+2. Density plot *Scatter plot with color indicating data density*
+3. Shallow neural network example
+4. Supporting files **for m_map**
 
 ---
 
