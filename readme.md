@@ -8,11 +8,14 @@ Now contain:
    1. Read Chla from modis
    2. Assessment index
    3. some figure setting 
-   4. Read images of Modis satellite in batch
    5. Normal distribution and fitting
 2. Density plot *Scatter plot with color indicating data density*
 3. Shallow neural network example
 4. Supporting files **for m_map**
+5. Read data files
+   1. Batch read excel/txt or other data
+   2. Read ".nc" file of Modis satellite in batch
+   3. Read ".h5" file of Landset satellite
 
 ---
 

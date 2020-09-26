@@ -4,20 +4,12 @@
 lonmin=105;lonmax=125;
 latmin=0;latmax=25;
 figure
+hold on
 set(gcf, 'color', 'white','Units', 'normalized','position', [0.06 0.06 0.7 0.7]);
 m_proj('Mercator','lon',[lonmin lonmax],'lat',[latmin latmax]);
 m_gshhs_h('patch',[.7 .7 .7],'edgecolor',[.4 .4 .4]);  % Coastline
 m_grid('linestyle','none','tickdir','in','linewidth',1.2,...
     'FontName','Times New Roman','FontSize',12);
-% sea depth
-[depth, lon, lat] = m_etopo2([lonmin lonmax latmin latmax]);
-m_pcolor(lon, lat, -depth);
-shading flat
-caxis([0 100]);
-map = zeros(256,3);
-map(:,3) = (0:255)/255;
-colormap(flipud(jet)); %颜色反转
-hold on
 
 
 % 绘制省界限
