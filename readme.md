@@ -16,6 +16,17 @@ Now contain:
    1. Batch read excel/txt or other data
    2. Read ".nc" file of Modis satellite in batch
    3. Read ".h5" file of Landset satellite
+6. M map example
+
+**Examples**
+
+1. M map example
+
+   ![Bathymetry](.\M_map_example\bathymetry_example.jpg)
+
+   
+
+   
 
 ---
 
