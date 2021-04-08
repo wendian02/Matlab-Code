@@ -3,8 +3,8 @@ clear; clc; close all
 %% II. Generate training / testing data
 %%
 % 1. load data
-NIR = ''
-octane = ''
+NIR = '';
+octane = '';
 %%
 % % 2. 随机产生训练集和测试集
 temp = randperm(size(NIR,1));
@@ -48,7 +48,7 @@ y_test = mapminmax('reverse', y_test, p_t);
 %% V. 性能评价
 %%
 % 1. MSE
-MSE = mean(sum((T_test - y_test).^2))
+MSE = mean(sum((T_test - y_test).^2));
 
 %%
 % 2. 决定系数R^2
