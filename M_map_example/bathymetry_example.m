@@ -5,7 +5,7 @@ figure
 m_proj('lambert','long',[-160 -115],'lat',[32 60]);
 m_etopo2('contourf',[-7000:1000:-1000 -500 -200 0 ],'edgecolor','none');
 % m_gshhs_f('patch',[.7 .7 .7],'edgecolor','none');  % hight resolution
-m_gshhs('lc','patch', [.7 .7 .7], 'edgecolor','none');    % low resolution
+m_gshhs('fc','patch', [.7 .7 .7], 'edgecolor','none');    % low resolution
 
 m_grid('linest','none','tickdir','out','box','fancy','fontsize',16);
 
