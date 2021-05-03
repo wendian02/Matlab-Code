@@ -4,29 +4,29 @@ These Maltab codes are more biased towards the direction of **Ocean Optic Remote
 
 Now contain:
 
-1. Some Tips
-   1. m_map basic code
-   3. some figure setting 
-   5. Normal distribution and fitting
-2. Density plot *Scatter plot with color indicating data density*
-3. **Shallow neural network** example
+1. Density Scatter
+   Density plot *Scatter plot with color indicating data density*
+2. Bathymetry
+3. Province Boundary
 4. Supporting files **for m_map**
-5. Read data files
-   2. Read ".nc" file of Modis satellite in batch
-6. M map example
-   1. Bathymetry
-   2. Boundary of provinces and country
+5. Unintro
+   ...
 
 **Examples**
 
-1. Bathymetry
+1. Density Scatter
 
-   ![Bathymetry](https://github.com/Wendian-github/Matlab-Code/blob/master/M_map_example/bathymetry_example.jpg)
+![Bathymetry](https://github.com/wendylay/Matlab-Code/tree/master/Density_plot/Example.jpg)
 
-2. Boundary(.shp files is in the **supporting files**)
-   ![Bathymetry](https://github.com/Wendian-github/Matlab-Code/blob/master/M_map_example/provinces_example.jpg)
+2. Bathymetry
 
-   
+![Bathymetry](https://github.com/wendylay/Matlab-Code/tree/master/M_map_example/bathymetry_example.jpg)
+
+3. Province Boundary(.shp files is in the **supporting files**)
+
+![Bathymetry](https://github.com/wendylay/Matlab-Code/tree/master/M_map_example/provinces_example.jpg)
+
+
 
 ---
 
