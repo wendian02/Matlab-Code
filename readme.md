@@ -2,8 +2,6 @@
 
 These Maltab codes are more biased towards the direction of **Ocean Optic Remote sensing**, but they have the same goal in different ways and have enlightenment in all directions.
 
-Now contain:
-
 - [Density Scatter](Density_plot/hist2d_example.m)
    Density plot *Scatter plot with color indicating data density*
 - [Bathymetry](M_map_example/bathymetry/bathymetry_example.m)
@@ -12,17 +10,17 @@ Now contain:
 - Unintro
    ...
 
-### [Density Scatter](Density_plot/hist2d_example.m)
-
-![](Density_plot/density.jpg)
-
 ### [Bathymetry](M_map_example/bathymetry/bathymetry_example.m)
 
-![](M_map_example/bathymetry/bathymetry_example.jpg)
+![](bathymetry/bathymetry_example.jpg)
 
 ### [Province Boundary](M_map_example/province_boundary.m)
 
-![](M_map_example/province_boundary/provinces_example.jpg)
+![](province_boundary/provinces_example.jpg)
+
+### [Density Scatter](Density_plot/hist2d_example.m)
+
+<img src="Density_plot/density.jpg" style="zoom:50%;" />
 
 # Donation
 
