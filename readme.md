@@ -20,11 +20,11 @@ Now contain:
 
 2. Bathymetry
 
-![Bathymetry](https://github.com/wendylay/Matlab-Code/tree/master/M_map_example/bathymetry_example.jpg)
+![Bathymetry](https://github.com/wendylay/Matlab-Code/tree/master/M_map_example/bathymetry/bathymetry_example.jpg)
 
 3. Province Boundary(.shp files is in the **supporting files**)
 
-![Bathymetry](https://github.com/wendylay/Matlab-Code/tree/master/M_map_example/provinces_example.jpg)
+![Bathymetry](https://github.com/wendylay/Matlab-Code/tree/master/M_map_example/province_boundary/provinces_example.jpg)
 
 
 
