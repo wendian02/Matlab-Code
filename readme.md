@@ -14,15 +14,15 @@ Now contain:
 
 ### [Density Scatter](Density_plot/hist2d_example.m)
 
-![Bathymetry](https://github.com/wendylay/Matlab-Code/tree/master/Density_plot/Example.jpg)
+![](Density_plot/density.jpg)
 
 ### [Bathymetry](M_map_example/bathymetry/bathymetry_example.m)
 
-![Bathymetry](https://github.com/wendylay/Matlab-Code/tree/master/M_map_example/bathymetry/bathymetry_example.jpg)
+![](M_map_example/bathymetry/bathymetry_example.jpg)
 
 ### [Province Boundary](M_map_example/province_boundary.m)
 
-![Bathymetry](https://github.com/wendylay/Matlab-Code/tree/master/M_map_example/province_boundary/provinces_example.jpg)
+![](M_map_example/province_boundary/provinces_example.jpg)
 
 # Donation
 
