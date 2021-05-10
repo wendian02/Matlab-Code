@@ -6,8 +6,9 @@ These Maltab codes are more biased towards the direction of **Ocean Optic Remote
    Density plot *Scatter plot with color indicating data density*
 - [Bathymetry](M_map_example/bathymetry/bathymetry_example.m)
 - [Province Boundary](M_map_example/province_boundary.m)
-- [Fill area](FillArea/fill_color)
+- [Fill area](FillArea/fill_color.m)
 - Supporting files **for m_map**
+- [Color imitation](Color_imitation/colorpix_example.m)
 - Unintro
    ...
 
@@ -22,6 +23,10 @@ These Maltab codes are more biased towards the direction of **Ocean Optic Remote
 ### [Fill area](fillArea/fill_color)
 
 ![](FillArea/fill_area.jpg)
+
+### [Color Imitation](Color_imitation/colorpix_example.m)
+
+![](Color_imitation/light_scatter.jpg)
 
 ### [Density Scatter](Density_plot/hist2d_example.m)
 
