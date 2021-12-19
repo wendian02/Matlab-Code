@@ -1,0 +1,19 @@
+% wendylay
+% 2021.12.19
+clc; clear; close all;
+rng('default')
+n_p = 10;
+
+x1 = randn(1, n_p) + randn(1, n_p) * 1;
+y1 = randn(1, n_p) + randn(1, n_p) * 2;
+
+x2 = randn(1, n_p) + randn(1, n_p) * 1;
+y2 = randn(1, n_p) + randn(1, n_p) * 2;
+
+for idx = 1 : n_p
+    if idx in 
+end
+
+scatter(x1, y1, 100, 's');
+hold on 
+scatter(x2, y2, 100, '^');

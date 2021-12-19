@@ -15,6 +15,7 @@ xlabel('\lambda');
 ylabel('***')
 
 % setting fig location 
+set(figure, 'Units', 'normalized', 'Position', [0.06 0.06 0.9 0.9])
 set(gca, 'Units', 'normalized', 'Position', [0.06 0.06 0.9 0.9])
 set(get(h, 'title'), 'string', 'Depth (m)', 'fontname', 'Times New Roman','fontsize', 10);
 
