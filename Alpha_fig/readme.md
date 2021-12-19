@@ -8,7 +8,9 @@
 
 这个图片虽然颜色很好看，但是有一个小问题就是在蓝色圆和红色方框点重叠的地方，我们看的不是很清楚，非常影响我们的感官，让人总感觉下面藏了些不为人知的秘密。
 
-​		想要解开这层“面纱”，在Matlab里面只需要在绘图代码最后加一句代码，
+### 1 方法1		
+
+想要解开这层“面纱”，在Matlab里面只需要在绘图代码最后加一句代码，
 
 ```matlab
 figure
@@ -22,7 +24,9 @@ alpha(0.6)  % set the transparency of the figure
 
 `alpha(0.6)`里面的0.6代表设置整个图片的不透明度为60%，如果不透明，那么里面就为1，如果全透明，那么里面设置为0，也就看不到点了。
 
-除了设置整个图片的透明度，我们还能分别设置点的Face（面）或者Edge（边缘）的透明度，设置的方法和设置颜色类似，就是设置的属性改为'MarkerFaceAlpha'与'MarkerEdgeAlpha'，具体代码如下
+### 2 方法2
+
+​		除了设置整个图片的透明度，我们还能分别设置点的Face（面）或者Edge（边缘）的透明度，设置的方法和设置颜色类似，就是设置的属性改为'MarkerFaceAlpha'与'MarkerEdgeAlpha'，具体代码如下
 
 ```
 scatter(x, y, 150, ...
@@ -39,11 +43,15 @@ scatter(x, y, 150, ...
 
 整体和部分的颜色层次要更分明一些。
 
-​		在Python里，matplotlib包的[scatter绘图](https://matplotlib.org/stable/gallery/shapes_and_collections/scatter.html#sphx-glr-gallery-shapes-and-collections-scatter-py)，也可以通过修改alpha进行透明度设置
+### 3 Python设置类似
+
+​		在Python里，matplotlib包的[scatter绘图（点这里可以查看下图所有代码）](https://matplotlib.org/stable/gallery/shapes_and_collections/scatter.html#sphx-glr-gallery-shapes-and-collections-scatter-py)，也可以通过修改alpha进行透明度设置
 
 ```python
 plt.scatter(x, y, s=area, c=colors, alpha=0.5)
 ```
+
+![](./py_scatter.jpg)
 
 最后，上述图片所有**完整代码可以点击这里[github](http://link.zhihu.com/?target=https%3A//github.com/wendylay/Matlab-Code)查看**
 
