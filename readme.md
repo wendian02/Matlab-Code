@@ -9,6 +9,7 @@ These Maltab codes are more biased towards the direction of **Ocean Optic Remote
 - [Fill area](FillArea/fill_color.m)
 - Supporting files **for m_map**
 - [Color imitation](Color_imitation/colorpix_example.m)
+- [Alpha Setting](Alpha_fig/alpha_fig.m)
 - Unintro
    ...
 
@@ -31,6 +32,10 @@ These Maltab codes are more biased towards the direction of **Ocean Optic Remote
 ### [Density Scatter](Density_plot/hist2d_example.m)
 
 <img src="Density_plot/density.jpg" style="zoom:50%;" />
+
+### [Alpha Setting](Alpha_fig/alpha_fig.m)
+
+![](Alpha_fig/./alpha_face_edge.jpg)
 
 
 
